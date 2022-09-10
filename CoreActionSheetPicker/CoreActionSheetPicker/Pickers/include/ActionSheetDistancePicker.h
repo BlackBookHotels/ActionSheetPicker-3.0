@@ -25,7 +25,7 @@
 //SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#if COCOAPODS
+#if COCOAPODS || SWIFT_PACKAGE
 #import <AbstractActionSheetPicker.h>
 #import <DistancePickerView.h>
 #else

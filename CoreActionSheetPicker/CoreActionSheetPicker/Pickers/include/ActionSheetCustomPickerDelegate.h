@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#if COCOAPODS
+#if COCOAPODS || SWIFT_PACKAGE
 #import <AbstractActionSheetPicker.h>
 #else
 #import <CoreActionSheetPicker/AbstractActionSheetPicker.h>

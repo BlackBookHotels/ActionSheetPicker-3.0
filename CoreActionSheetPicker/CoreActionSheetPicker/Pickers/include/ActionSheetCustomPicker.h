@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Club 15CC. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#if COCOAPODS
+#if COCOAPODS || SWIFT_PACKAGE 
 #import <AbstractActionSheetPicker.h>
 #import <ActionSheetCustomPickerDelegate.h>
 #else
